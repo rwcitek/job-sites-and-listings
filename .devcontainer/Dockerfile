@@ -1,3 +1,6 @@
+COPY .devcontainer/install-doctl.sh /tmp/install-doctl.sh
+RUN chmod +x /tmp/install-doctl.sh && /tmp/install-doctl.sh && rm /tmp/install-doctl.sh
+
 # Start with a Python image.
 FROM mcr.microsoft.com/playwright/python:v1.17.0-focal
 
