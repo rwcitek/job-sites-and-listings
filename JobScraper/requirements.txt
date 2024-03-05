@@ -1,2 +1,2 @@
-pyppeteer==0.2.5
-beautifulsoup4==4.9.3
+playwright
+beautifulsoup4
