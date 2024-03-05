@@ -1,5 +1,24 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {"ghcr.io/elanhasson/devcontainer-features/digitalocean-doctl-cli-persistence:1": {}
-  }
+  },
+  
+  "name": "Python with Playwright",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter"
+  ],
+  "forwardPorts": [8080],
+  "postCreateCommand": "playwright install",
+  "remoteUser": "root"
+
+
 }
