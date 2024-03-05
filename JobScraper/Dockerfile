@@ -17,4 +17,4 @@ RUN playwright install
 COPY . .
 
 # Command to run on container start
-CMD ["python", "./your_script_name.py"]
+CMD ["python", "./scraper.py"]
