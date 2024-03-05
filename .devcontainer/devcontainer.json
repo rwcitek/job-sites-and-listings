@@ -1,13 +1,1 @@
-{
-    "name": "Your Project",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
-    },
-    "settings": { 
-        // Add any VS Code settings here
-    },
-    "extensions": [
-        // List any VS Code extensions you need
-    ]
-}
+
