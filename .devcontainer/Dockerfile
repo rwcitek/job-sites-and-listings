@@ -1,30 +1,35 @@
-# Start with the Playwright-provided Python image for compatibility with Playwright requirements.
-FROM mcr.microsoft.com/playwright/python:v1.17.0-focal
+# Use an official Python runtime as a parent image, compatible with the Playwright version
+FROM python:3.12-bookworm
 
-# Set the working directory in the container to /app.
+# Set the working directory in the container
 WORKDIR /app
 
-# Prevent Python from generating .pyc files in the container.
-ENV PYTHONDONTWRITEBYTECODE 1
-# Prevent Python from buffering stdout and stderr.
-ENV PYTHONUNBUFFERED 1
+# Install dependencies required for Playwright
+# Note: The playwright package itself will be installed via pip
+RUN apt-get update && apt-get install -y \
+    wget \
+    xvfb \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy the Python dependencies file into the working directory.
-COPY requirements.txt .
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Install Python dependencies from the requirements file.
-RUN pip install --no-cache-dir -r requirements.txt
+# Install Python dependencies
+# Include playwright and any other dependencies your application requires
+RUN pip install playwright==1.41.2 && playwright install --with-deps
 
-# Install the necessary browsers using Playwright.
-RUN playwright install
+# Add a user for running applications
+RUN groupadd -r pwuser && useradd -r -g pwuser -G audio,video pwuser \
+    && mkdir -p /home/pwuser && chown -R pwuser:pwuser /home/pwuser
 
-# Optionally, include custom script installation (e.g., for DigitalOcean CLI tools).
-# Ensure your install-doctl.sh script is in the .devcontainer directory of your repository.
-COPY .devcontainer/install-doctl.sh /tmp/install-doctl.sh
-RUN chmod +x /tmp/install-doctl.sh && /tmp/install-doctl.sh && rm /tmp/install-doctl.sh
+# Use the created user
+USER pwuser
 
-# Copy the rest of your application's code into the container.
-COPY . .
+# Make port 80 available to the world outside this container
+EXPOSE 80
 
-# Specify the command to run on container start. Update this command based on your entry script.
-CMD ["python", "./scraper.py"]
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]
