@@ -13,8 +13,10 @@ Posting Sites:
 - https://weworkremotely.com/
 - https://www.jobs.state.nm.us/vosnet/jobbanks/joblist
 - https://www.upwork.com/
+- https://www.parkerdewey.com/
   
 Employer Sites:
+- https://lanl.jobs/
 - https://www.governmentjobs.com/careers/cabq
 - https://chess.wd1.myworkdayjobs.com/CHESS
 - https://www.carbon-direct.com/careers
