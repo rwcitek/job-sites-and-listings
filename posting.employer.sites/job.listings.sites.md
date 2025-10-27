@@ -12,8 +12,9 @@ Posting Sites:
 - https://www.doorsopen.co/jobs/
 - https://weworkremotely.com/
 - https://www.jobs.state.nm.us/vosnet/jobbanks/joblist
-- https://www.upwork.com/
 - https://www.parkerdewey.com/
+- https://www.upwork.com/
+- https://www.Remote.co
   
 Employer Sites:
 - https://lanl.jobs/
