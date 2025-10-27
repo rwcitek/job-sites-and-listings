@@ -12,7 +12,7 @@ Posting Sites:
 - https://www.doorsopen.co/jobs/
 - https://weworkremotely.com/
 - https://www.jobs.state.nm.us/vosnet/jobbanks/joblist
-- https://weworkremotely.com/top-remote-companies
+- https://www.Remote.co
   
 Employer Sites:
 - https://www.governmentjobs.com/careers/cabq
