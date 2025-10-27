@@ -14,6 +14,7 @@ Posting Sites:
 - https://www.jobs.state.nm.us/vosnet/jobbanks/joblist
   
 Employer Sites:
+- https://lanl.jobs/
 - https://www.governmentjobs.com/careers/cabq
 - https://chess.wd1.myworkdayjobs.com/CHESS
 - https://www.carbon-direct.com/careers
