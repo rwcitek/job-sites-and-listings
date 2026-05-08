@@ -31,3 +31,4 @@ Employer Sites:
 - https://careers.emdgroup.com/us/en/work-areas
 - https://grndwork.com/careers/
 - https://rs21.io/careers
+- https://jobs.mchire.com/
