@@ -29,3 +29,4 @@ Employer Sites:
 - https://unm.csod.com/ux/ats/careersite/18/home?c=unm
 - https://livenation.wd1.myworkdayjobs.com/LNExternalSite
 - https://careers.emdgroup.com/us/en/work-areas
+- https://wd1.myworkdaysite.com/en-US/recruiting/fmr/FidelityCareers
