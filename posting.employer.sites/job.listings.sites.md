@@ -10,6 +10,7 @@ Posting Sites:
 - https://hitmarker.net/jobs
 - https://www.entertainmentcareers.net/psearch/?zoom_query=data
 - https://www.doorsopen.co/jobs/
+- https://wellfound.com/
 - https://weworkremotely.com/
 - https://www.jobs.state.nm.us/vosnet/jobbanks/joblist
 - https://www.parkerdewey.com/
