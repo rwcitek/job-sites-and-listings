@@ -32,3 +32,4 @@ Employer Sites:
 - https://grndwork.com/careers/
 - https://rs21.io/careers
 - https://jobs.mchire.com/
+- https://www.dataannotation.tech/
