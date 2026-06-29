@@ -15,6 +15,7 @@ Posting Sites:
 - https://www.parkerdewey.com/
 - https://www.upwork.com/
 - https://www.Remote.co
+- https://www.flexjobs.com/
   
 Employer Sites:
 - https://lanl.jobs/
@@ -32,4 +33,5 @@ Employer Sites:
 - https://grndwork.com/careers/
 - https://rs21.io/careers
 - https://jobs.mchire.com/
--https://www.google.com/about/careers/applications/jobs/results?q=data
+- https://www.google.com/about/careers/applications/jobs/results?q=data
+- https://delta.avature.net/en_US/careers/SearchJobs
