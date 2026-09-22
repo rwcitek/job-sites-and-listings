@@ -56,6 +56,7 @@ Employer Sites:
 - https://www.dataannotation.tech/
 - https://www.google.com/about/careers/applications/jobs/results?q=data
 - https://delta.avature.net/en_US/careers/SearchJobs
+- https://careers-edgewaterit.icims.com/jobs/intro
 - https://www.amazon.jobs/en/locations/albuquerque-nm
 - https://jobs.fidelity.com/en
 - https://www.speridian.com/careers
