@@ -27,6 +27,15 @@ Posting Sites:
 - https://www.idealist.org/
 - https://www.simplyhired.com/
 - https://www.careerbuilder.com/
+- https://joinhandshake.com/
+- https://www.glassdoor.com/
+- https://www.snagajob.com/
+- https://www.jobcase.com/
+- https://www.theladders.com/
+- https://job.com/
+- https://www.themuse.com/
+- https://www.lhh.com/
+
   
 Employer Sites:
 - https://lanl.jobs/
@@ -48,3 +57,8 @@ Employer Sites:
 - https://www.google.com/about/careers/applications/jobs/results?q=data
 - https://delta.avature.net/en_US/careers/SearchJobs
 - https://careers-edgewaterit.icims.com/jobs/intro
+- https://www.amazon.jobs/en/locations/albuquerque-nm
+- https://jobs.fidelity.com/en
+- https://www.speridian.com/careers
+- https://www.ara.com/careers
+- https://www.phs.org/careers
