@@ -27,6 +27,14 @@ Posting Sites:
 - https://www.idealist.org/
 - https://www.simplyhired.com/
 - https://www.careerbuilder.com/
+- https://joinhandshake.com/
+- https://www.glassdoor.com/
+- https://www.snagajob.com/
+- https://www.jobcase.com/
+- https://www.theladders.com/
+- https://job.com/
+- https://www.themuse.com/
+- https://www.lhh.com/
   
 Employer Sites:
 - https://lanl.jobs/
